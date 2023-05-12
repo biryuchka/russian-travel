@@ -1,0 +1,18 @@
+.footer__link {
+  font-style: normal;
+  text-align: left;
+  color: #ffffff;
+  font-weight: 400;
+  margin-right: 18px;
+  line-height: 18px;
+  font-size: 16px;
+}
+  
+  
+@media screen and (max-width: 767px) {
+  .footer__link {
+    margin-bottom: 32px;
+    line-height: 24px;
+    font-size: 24px;
+  }
+}
