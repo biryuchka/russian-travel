@@ -1,0 +1,15 @@
+@import "vendor/tools/fonts.css";
+
+@import "blocks/page/page.css";
+@import "blocks/link/link.css";
+
+@import "blocks/header/header.css";
+@import "blocks/header/__logo/header__logo.css";
+@import "blocks/header/__links_list/header__links_list.css";
+@import "blocks/header/__link_lang/header__link_lang.css";
+
+
+@import "blocks/footer/footer.css";
+@import "blocks/footer/__links/footer__links.css";
+@import "blocks/footer/__link/footer__link.css";
+@import "blocks/footer/__author/footer__author.css";
