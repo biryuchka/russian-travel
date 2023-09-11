@@ -1,13 +1,33 @@
-@import "vendor/tools/fonts.css";
+@import "tools/fonts/fonts.css";
+@import "tools/normalize.css";
 
 @import "blocks/page/page.css";
 @import "blocks/link/link.css";
+
 
 @import "blocks/header/header.css";
 @import "blocks/header/__logo/header__logo.css";
 @import "blocks/header/__links_list/header__links_list.css";
 @import "blocks/header/__link_lang/header__link_lang.css";
 
+@import "blocks/intro/intro.css";
+@import "blocks/intro/__title/intro__title.css";
+@import "blocks/intro/__subtitle/intro__subtitle.css";
+@import "blocks/intro/__card/intro__card.css";
+@import "blocks/intro/__image/intro__image.css";
+@import "blocks/intro/__map/intro__map.css";
+@import "blocks/intro/__caption/intro__caption.css";
+
+@import "blocks/info/info.css";
+@import "blocks/info/__title/info__title.css";
+@import "blocks/info/__text/info__text.css";
+@import "blocks/info/__list/info__list.css";
+@import "blocks/info/__list-fact/info__list-fact.css";
+@import "blocks/info/__numbers/info__numbers.css";
+
+@import "blocks/photo-grid/photo-grid.css";
+@import "blocks/photo-grid/__list/photo-grid__list.css";
+@import "blocks/photo-grid/__photo/photo-grid__photo.css";
 
 @import "blocks/footer/footer.css";
 @import "blocks/footer/__links/footer__links.css";
