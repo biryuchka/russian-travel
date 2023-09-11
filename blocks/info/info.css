@@ -1,0 +1,31 @@
+.info {
+  box-sizing: border-box;
+  max-width: 984px;
+  width: 100%;
+  margin: 92px auto 0;
+}
+  
+@media only screen and (max-width: 1024px) {
+  .info {
+    max-width: 928px;
+  }
+}
+  
+@media only screen and (max-width: 970px) {
+  .info {
+    padding-left: 24px;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .info {
+    margin: 88px auto 0;
+  }
+}
+  
+@media only screen and (max-width: 425px) {
+  .info {
+    padding: 0 16px;
+    margin: 64px auto 0;
+  }
+}

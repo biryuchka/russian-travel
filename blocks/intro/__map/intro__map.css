@@ -1,0 +1,30 @@
+.intro__map {
+  margin: 90px 0 0 0;
+  padding: 0;
+  width: 95%;
+  max-width: 937px;
+  object-fit: cover;
+  align-self: center;
+  position: absolute;
+}
+  
+@media only screen and (max-width: 1024px) {
+  .intro__map {
+    margin: 87px 0 0 0;
+    max-width: 884px;
+  } 
+}
+  
+@media only screen and (max-width: 768px) {
+  .intro__map {
+    margin: 75px 0 0 0;
+    max-width: 732px;
+  }
+}
+  
+@media only screen and (max-width: 425px) {
+  .intro__map {
+    margin: 30px 0 0 0;
+    max-width: 305px;
+  }
+}
