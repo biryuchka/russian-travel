@@ -5,20 +5,22 @@
   font-style: normal;
   font-size: 72px;
   line-height: 76px;
+  max-width: 425px;
+}
+
+@media screen and (max-width: 925px) {
+  .place__title {
+    max-width: 330px;
+    font-size: 42px;
+    line-height: 46px;
+  }
 }
 
 @media screen and (max-width: 420px) {
   .place__title {
+    white-space: nowrap;
     font-size: 32px;
     line-height: 35px;
     margin-left: 16px;
-  }
-}
-
-
-@media screen and (max-width: 768px) {
-  .place__title {
-    font-size: 42px;
-    line-height: 46px;
   }
 }

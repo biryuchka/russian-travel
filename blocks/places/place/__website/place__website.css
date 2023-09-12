@@ -1,8 +1,13 @@
 .place__website {
   margin: 0;
-  padding: 0;
+  padding-left: 8px;
   display: grid;
   gap: 12px;
-  padding-left: 10px;
   align-self: flex-end;
+}
+
+@media screen and (max-width: 420px) {
+  .place__website {
+    margin-left: 8px;
+  }
 }

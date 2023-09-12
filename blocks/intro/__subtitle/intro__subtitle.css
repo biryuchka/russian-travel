@@ -7,14 +7,13 @@
   text-align: center;
   max-width: 640px;
   width: 95%;
-  white-space: nowrap;
+  white-space: pre-wrap;
 }
 
 @media only screen and (max-width: 525px) {
   .intro__subtitle {
     font-size: 24px;
     line-height: 28px;
-    white-space: normal;
   }
 }
 
@@ -24,6 +23,5 @@
     font-size: 16px;
     line-height: 20px;
     max-width: 288px;
-    white-space: normal;
   }
 }
