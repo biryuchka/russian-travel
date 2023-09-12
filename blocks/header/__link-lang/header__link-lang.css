@@ -1,4 +1,4 @@
-.header__link_lang {
+.header__link-lang {
   line-height: 28px;
   font-weight: 400;
   color: #ffffff;
@@ -6,12 +6,12 @@
   cursor: pointer;
 }
 
-.header__link_lang__active {
+.active {
   text-decoration: underline;
 }
   
 @media screen and (max-width: 420px) {
-  .header__link_lang {
+  .header__link-lang {
     line-height: 20px;
     font-size: 18px;
   }

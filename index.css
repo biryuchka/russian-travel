@@ -7,8 +7,8 @@
 
 @import "blocks/header/header.css";
 @import "blocks/header/__logo/header__logo.css";
-@import "blocks/header/__links_list/header__links_list.css";
-@import "blocks/header/__link_lang/header__link_lang.css";
+@import "blocks/header/__links-list/header__links-list.css";
+@import "blocks/header/__link-lang/header__link-lang.css";
 
 @import "blocks/intro/intro.css";
 @import "blocks/intro/__title/intro__title.css";
@@ -45,5 +45,5 @@
 
 @import "blocks/footer/footer.css";
 @import "blocks/footer/__links/footer__links.css";
-@import "blocks/footer/__link/footer__link.css";
+@import "blocks/footer/__links-link/footer__links-link.css";
 @import "blocks/footer/__author/footer__author.css";

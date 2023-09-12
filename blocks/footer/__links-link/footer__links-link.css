@@ -1,4 +1,4 @@
-.footer__link {
+.footer__links-link {
   font-style: normal;
   text-align: left;
   color: #ffffff;
@@ -10,7 +10,7 @@
   
   
 @media screen and (max-width: 767px) {
-  .footer__link {
+  .footer__links-link {
     margin-bottom: 32px;
     line-height: 24px;
     font-size: 24px;
