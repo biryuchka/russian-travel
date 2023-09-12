@@ -1,4 +1,4 @@
-footer {
+.footer {
   justify-content: space-between;
   padding: 92px 48px 24px 48px;
   flex-wrap: wrap;
@@ -6,14 +6,14 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
-  footer {
+  .footer {
     flex-direction: column;
     padding: 64px auto auto 16px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  footer {
+  .footer {
     padding: 88px 24px 24px 24px;
   }
 }
