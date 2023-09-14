@@ -1,13 +1,19 @@
 .footer__author {
+  text-align: center;
   line-height: 16px;
   font-weight: 400;
   font-size: 14px;
-  margin-top: -3px;
+  margin-top: auto;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__author {
+    text-align: left;
+  }
 }
   
 @media screen and (max-width: 368px) {
   .footer__author {
     line-height: 14px;
-    margin-top: -25px;
   }
 }

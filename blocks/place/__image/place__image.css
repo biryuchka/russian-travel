@@ -5,7 +5,7 @@
   height: auto;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .place__image {
     width: 440px;
   }
@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 767px) {
   .place__image {
     width: 100%;
     object-fit: cover;

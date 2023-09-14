@@ -6,9 +6,6 @@
   cursor: pointer;
 }
 
-.active {
-  text-decoration: underline;
-}
   
 @media screen and (max-width: 420px) {
   .header__link-lang {

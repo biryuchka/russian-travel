@@ -5,15 +5,16 @@
   display: flex;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .footer {
-    flex-direction: column;
-    padding: 64px auto auto 16px;
+    padding: 88px 24px 24px 24px;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   .footer {
-    padding: 88px 24px 24px 24px;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-left: 16px;
   }
 }
